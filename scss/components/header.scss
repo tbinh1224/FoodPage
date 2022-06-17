@@ -1,0 +1,219 @@
+@import "../globals/color.scss";
+.header{
+    background: linear-gradient(to right, $bg-light 0%, $bg-light 70%, $color-primary 30%);
+    height: 100vh;
+    position: relative;
+    &__bot{
+        position: absolute;
+        bottom: 10%;
+        left: 0;
+        width: 280px;
+        height: 65px;
+        border-radius: 0px 100px 100px 0px;
+        background-color: $color-primary;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    & .container {
+        background-color: unset;
+    }
+
+    &__image{
+        position: absolute;
+        left: 47%;
+        bottom: 5%;
+        display: flex;
+
+    }
+}
+
+.nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo{
+        font-weight: 700;
+        font-size: 72px;
+        color: $color-primary;
+        margin-left: 50px;
+    }
+}
+.user{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 55px;
+
+
+
+    &__icon{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+        color: $text-color;
+        padding: 20px;
+        border-radius: 50%;
+        background-color: $color-white;
+        margin-right: 10px;
+    }
+    &__text{
+        margin-right: 10px;
+        font-size: 16px;
+}
+
+}
+
+.link{
+    display: flex;
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        left: 30%  ;
+        
+        &__menu{
+            display: flex;
+            text-align: center;
+            justify-content: space-between;
+            align-items: center;
+            margin-right: 50px;
+        
+        
+    }
+        
+        
+}
+
+.header-text{
+    position: absolute;
+    left: 85px;
+    top: 190px;
+   
+}
+
+.opacity-text{
+    
+    font-size: 200px;
+    opacity: 0.05;
+    font-weight: 900;
+
+}
+
+.header-title{
+    font-weight: 700;
+    font-size: 72px;
+    color: $text-color;
+    text-transform: capitalize;
+    width: 700px;
+    height: 157px;
+    line-height: 90px;
+}
+
+.header-search{
+    position: relative;
+    width: 40%;
+    
+}
+
+.header-input{
+    padding: 40px;
+    font-size: 18px;
+    width: 100%;
+}
+
+.header-button{
+    position: absolute;
+    background-color: $color-primary;
+    color: $color-white;
+    width: 30%;
+    padding: 20px;
+    font-size: 30px;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    border-top-left-radius: 70px;
+}
+
+.div-search{
+    position: absolute;
+    width: 100%;
+    bottom: 320px;
+    left: 90px;
+}
+.header-bot-text{
+    font-size: 30px;
+   margin-left: 20px;
+   color: $color-white;
+   display: flex;
+   align-items: center;
+}
+.icon-vector{
+    display: flex;
+    align-items: center;
+}
+.control{
+    display: flex;
+    position: absolute;
+    bottom: 8%;
+    right: 5%;
+}
+.right-bot{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    margin-right: -140%;
+    
+}
+.right-cir{
+    position: absolute;
+    left: 50%;
+
+}
+
+
+.left-bot{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    
+}
+.left-cir{
+    position: absolute;
+    right: 50%;
+}
+.salad{
+    position: absolute;
+    width: 584px;
+    height: 900px;
+    right: 10%;
+    top: -23%;
+    z-index: 2;
+}
+.black-point-1{
+    position: absolute;
+    right: 48%;
+    top: 45%;
+    z-index: 1;
+}
+.black-point{
+    position: absolute;
+    right: 48%;
+    top: 2%;
+    z-index: 1;
+}
+.food{
+    z-index: 3;
+}
+
+
+

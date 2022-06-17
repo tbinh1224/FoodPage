@@ -1,0 +1,308 @@
+@import "../globals/color.scss";
+.container{
+    height: 100vh;
+    position: relative;
+    background-color: $bg-light;
+}
+.food{
+    margin: auto -50px;
+}
+.restaurant{
+    display: flex;
+    
+    
+    justify-content: space-around;
+    padding-top: 5%;
+    margin-bottom: 5%;
+
+}
+.main-header{
+    font-weight: 500;
+font-size: 48px;
+line-height: 62px;
+width: 30%;
+border-left: 25px solid $color-primary;
+padding-left: 2%;
+}
+.main-text{
+    font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+width: 25%;
+}
+
+.info-food{
+    display: flex;
+    
+}
+.pizza{
+    position: relative;
+    margin-right: 2%;
+    z-index: 2;
+    
+    
+    &__items{
+        position: absolute;
+        bottom: 0;
+        background: #35cd8cb3;
+        width: 100%;
+        border-radius: 0px 0px 20px 20px;
+        padding: 10%;
+    }
+    &__header{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 24px;
+        color: $color-white;
+        position: absolute;
+        top: 10%;
+    }
+    &__disc{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: $color-white;
+        margin-bottom: 2%;
+        text-transform: capitalize;
+    }
+    &__button{
+        position: absolute;
+        right: 0;
+        bottom: 10%;
+        border-color: unset;
+        transform: translate(1px);
+        font-weight: 400;
+        font-size: 16px;
+        border-radius: 100px 0px 0px 100px;
+        width: 208px;
+        height: 58px;
+        color: $color-primary;
+    }
+}
+
+.ham{
+    position: relative;
+    z-index: 2;
+    
+    &__items{
+        position: absolute;
+        bottom: 0;
+        background: #35cd8cb3;
+        width: 100%;
+        border-radius: 0px 0px 20px 20px;
+        padding: 10%;
+    }
+    &__header{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 24px;
+        color: $color-white;
+        position: absolute;
+        top: 10%;
+    }
+    &__disc{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: $color-white;
+        margin-bottom: 2%;
+        text-transform: capitalize;
+    }
+    &__button{
+        position: absolute;
+        right: 0;
+        bottom: 10%;
+        border-color: unset;
+        transform: translate(1px);
+        font-weight: 400;
+        font-size: 16px;
+        border-radius: 100px 0px 0px 100px;
+        width: 208px;
+        height: 58px;
+        color: $color-primary;
+    }
+
+}
+.pizza-location{
+    display: flex;
+    align-items: center;
+}
+.ham-location{
+    display: flex;
+    align-items: center;
+}
+.icon-ham{
+    margin-right: 2%;
+}
+.icon-pizza{
+    margin-right: 2%;
+}
+.text-pizza{
+    color: $color-white;
+}
+.ham-text{
+    color: $color-white;
+}
+.points-1{
+    position: absolute;
+    top: 24%;
+    z-index: 1;
+}
+.points-2{
+    position: absolute;
+    top: 58%;
+    right: 30%;
+    z-index: 1;
+}
+.next-button{
+    position: absolute;
+    color: $color-primary;
+    font-weight: 400;
+    font-size: 14px;
+    top: 60%;
+    right: 20%;
+}
+.icon-button{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 55%;
+    right: 20%;
+}
+.icon-line{
+    position: absolute;
+    top: 45%;
+    right: 80%;
+}
+.icon-arrow{
+    position: absolute;
+    top: 23%;
+    right: 34%;
+}
+.restaurant-search{
+    background-color: $bg-color-2;
+    margin: auto -50px;
+    height: 100vh;
+    margin-top: 122px;
+    position: relative;
+}
+.booking-list{
+    display: flex;
+    justify-content: space-around;
+}
+.date{
+
+    &__text{
+        display: inline-block;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+.time{
+
+
+    &__text{
+        display: inline-block;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+.guest{
+
+
+    &__text{
+        display: inline-block;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+.advance{
+    position: absolute;
+    bottom: 26%;
+    left: 4%;
+    text-align: center;
+    background-color: $color-white;
+    padding:7% 10% 7% 38%;
+
+
+    &__line{
+        width: 230px;
+        height: 15px;
+        margin-bottom: 23px;
+    }
+    &__text{
+        font-weight: 500;
+        font-size: 36px;
+        margin-bottom: 25px;
+    }
+}
+.search-bar{
+    position: relative;
+    margin-bottom: 36px;
+
+    &__input{
+        width: 544px;
+        height: 90px;
+        padding-left: 20px;
+        border-style: none;
+        box-shadow: 10px 5px 10px 15px $bg-light
+
+    }
+
+    &__button{
+        width: 128px;
+        height: 62px;
+        background-color: $color-primary;
+        color: $color-white;
+        border-style: none;
+        position: absolute;
+        top: 15%;
+        right: 2%;
+
+    }
+}
+.right-salad{
+    position: absolute;
+    bottom: -17%;
+}
+.left-salad{
+    position: absolute;
+    top: 20%;
+    right: 0;
+}
+.service{
+    background-color: $bg-light;
+    height: 100vh;
+    margin: auto -50px;
+    display: flex;
+    position: relative;
+
+
+
+    &__header{
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 62px;
+        color: $text-color;
+        border-left: 15px solid $color-primary;
+        width: 307px;
+        height: 80px;
+        padding-left: 20px;
+        position: absolute;
+        left: 5%;
+        top: 10%;
+    }
+    &__text{
+        position: absolute;
+        width: 30%;
+        right: 40%;
+        top: 10%;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #707070;
+    }
+}

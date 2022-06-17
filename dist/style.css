@@ -1,0 +1,533 @@
+.header {
+  background: linear-gradient(to right, #FFEDDE 0%, #FFEDDE 70%, #35CD8C 30%);
+  height: 100vh;
+  position: relative;
+}
+.header__bot {
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  width: 280px;
+  height: 65px;
+  border-radius: 0px 100px 100px 0px;
+  background-color: #35CD8C;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.header .container {
+  background-color: unset;
+}
+.header__image {
+  position: absolute;
+  left: 47%;
+  bottom: 5%;
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__logo {
+  font-weight: 700;
+  font-size: 72px;
+  color: #35CD8C;
+  margin-left: 50px;
+}
+
+.user {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 55px;
+}
+.user__icon {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  color: #2E266F;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  margin-right: 10px;
+}
+.user__text {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.link {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  left: 30%;
+}
+.link__menu {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.header-text {
+  position: absolute;
+  left: 85px;
+  top: 190px;
+}
+
+.opacity-text {
+  font-size: 200px;
+  opacity: 0.05;
+  font-weight: 900;
+}
+
+.header-title {
+  font-weight: 700;
+  font-size: 72px;
+  color: #2E266F;
+  text-transform: capitalize;
+  width: 700px;
+  height: 157px;
+  line-height: 90px;
+}
+
+.header-search {
+  position: relative;
+  width: 40%;
+}
+
+.header-input {
+  padding: 40px;
+  font-size: 18px;
+  width: 100%;
+}
+
+.header-button {
+  position: absolute;
+  background-color: #35CD8C;
+  color: #ffffff;
+  width: 30%;
+  padding: 20px;
+  font-size: 30px;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  border-top-left-radius: 70px;
+}
+
+.div-search {
+  position: absolute;
+  width: 100%;
+  bottom: 320px;
+  left: 90px;
+}
+
+.header-bot-text {
+  font-size: 30px;
+  margin-left: 20px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.icon-vector {
+  display: flex;
+  align-items: center;
+}
+
+.control {
+  display: flex;
+  position: absolute;
+  bottom: 8%;
+  right: 5%;
+}
+
+.right-bot {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  margin-right: -140%;
+}
+
+.right-cir {
+  position: absolute;
+  left: 50%;
+}
+
+.left-bot {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+}
+
+.left-cir {
+  position: absolute;
+  right: 50%;
+}
+
+.salad {
+  position: absolute;
+  width: 584px;
+  height: 900px;
+  right: 10%;
+  top: -23%;
+  z-index: 2;
+}
+
+.black-point-1 {
+  position: absolute;
+  right: 48%;
+  top: 45%;
+  z-index: 1;
+}
+
+.black-point {
+  position: absolute;
+  right: 48%;
+  top: 2%;
+  z-index: 1;
+}
+
+.food {
+  z-index: 3;
+}
+
+.container {
+  height: 100vh;
+  position: relative;
+  background-color: #FFEDDE;
+}
+
+.food {
+  margin: auto -50px;
+}
+
+.restaurant {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5%;
+  margin-bottom: 5%;
+}
+
+.main-header {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 62px;
+  width: 30%;
+  border-left: 25px solid #35CD8C;
+  padding-left: 2%;
+}
+
+.main-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  width: 25%;
+}
+
+.info-food {
+  display: flex;
+}
+
+.pizza {
+  position: relative;
+  margin-right: 2%;
+  z-index: 2;
+}
+.pizza__items {
+  position: absolute;
+  bottom: 0;
+  background: rgba(53, 205, 140, 0.7019607843);
+  width: 100%;
+  border-radius: 0px 0px 20px 20px;
+  padding: 10%;
+}
+.pizza__header {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  color: #ffffff;
+  position: absolute;
+  top: 10%;
+}
+.pizza__disc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 2%;
+  text-transform: capitalize;
+}
+.pizza__button {
+  position: absolute;
+  right: 0;
+  bottom: 10%;
+  border-color: unset;
+  transform: translate(1px);
+  font-weight: 400;
+  font-size: 16px;
+  border-radius: 100px 0px 0px 100px;
+  width: 208px;
+  height: 58px;
+  color: #35CD8C;
+}
+
+.ham {
+  position: relative;
+  z-index: 2;
+}
+.ham__items {
+  position: absolute;
+  bottom: 0;
+  background: rgba(53, 205, 140, 0.7019607843);
+  width: 100%;
+  border-radius: 0px 0px 20px 20px;
+  padding: 10%;
+}
+.ham__header {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  color: #ffffff;
+  position: absolute;
+  top: 10%;
+}
+.ham__disc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 2%;
+  text-transform: capitalize;
+}
+.ham__button {
+  position: absolute;
+  right: 0;
+  bottom: 10%;
+  border-color: unset;
+  transform: translate(1px);
+  font-weight: 400;
+  font-size: 16px;
+  border-radius: 100px 0px 0px 100px;
+  width: 208px;
+  height: 58px;
+  color: #35CD8C;
+}
+
+.pizza-location {
+  display: flex;
+  align-items: center;
+}
+
+.ham-location {
+  display: flex;
+  align-items: center;
+}
+
+.icon-ham {
+  margin-right: 2%;
+}
+
+.icon-pizza {
+  margin-right: 2%;
+}
+
+.text-pizza {
+  color: #ffffff;
+}
+
+.ham-text {
+  color: #ffffff;
+}
+
+.points-1 {
+  position: absolute;
+  top: 24%;
+  z-index: 1;
+}
+
+.points-2 {
+  position: absolute;
+  top: 58%;
+  right: 30%;
+  z-index: 1;
+}
+
+.next-button {
+  position: absolute;
+  color: #35CD8C;
+  font-weight: 400;
+  font-size: 14px;
+  top: 60%;
+  right: 20%;
+}
+
+.icon-button {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 55%;
+  right: 20%;
+}
+
+.icon-line {
+  position: absolute;
+  top: 45%;
+  right: 80%;
+}
+
+.icon-arrow {
+  position: absolute;
+  top: 23%;
+  right: 34%;
+}
+
+.restaurant-search {
+  background-color: #FFF5EC;
+  margin: auto -50px;
+  height: 100vh;
+  margin-top: 122px;
+  position: relative;
+}
+
+.booking-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.date__text {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.time__text {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.guest__text {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.advance {
+  position: absolute;
+  bottom: 26%;
+  left: 4%;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 7% 10% 7% 38%;
+}
+.advance__line {
+  width: 230px;
+  height: 15px;
+  margin-bottom: 23px;
+}
+.advance__text {
+  font-weight: 500;
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+.search-bar {
+  position: relative;
+  margin-bottom: 36px;
+}
+.search-bar__input {
+  width: 544px;
+  height: 90px;
+  padding-left: 20px;
+  border-style: none;
+  box-shadow: 10px 5px 10px 15px #FFEDDE;
+}
+.search-bar__button {
+  width: 128px;
+  height: 62px;
+  background-color: #35CD8C;
+  color: #ffffff;
+  border-style: none;
+  position: absolute;
+  top: 15%;
+  right: 2%;
+}
+
+.right-salad {
+  position: absolute;
+  bottom: -17%;
+}
+
+.left-salad {
+  position: absolute;
+  top: 20%;
+  right: 0;
+}
+
+.service {
+  background-color: #FFEDDE;
+  height: 100vh;
+  margin: auto -50px;
+  display: flex;
+  position: relative;
+}
+.service__header {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 62px;
+  color: #2E266F;
+  border-left: 15px solid #35CD8C;
+  width: 307px;
+  height: 80px;
+  padding-left: 20px;
+  position: absolute;
+  left: 5%;
+  top: 10%;
+}
+.service__text {
+  position: absolute;
+  width: 30%;
+  right: 40%;
+  top: 10%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #707070;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #2E266F;
+}
+
+.container {
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
